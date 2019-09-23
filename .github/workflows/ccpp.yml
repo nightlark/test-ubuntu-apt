@@ -1,0 +1,12 @@
+name: C/C++ CI
+
+on: [push]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: run apt install
+      run: apt-get install -y libzmq5-dev
