@@ -8,5 +8,7 @@ jobs:
     runs-on: ubuntu-latest
     
     steps:
+    - name: whoami
+      run: whoami
     - name: run apt install
       run: apt-get install -y libzmq5-dev
