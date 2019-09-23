@@ -11,4 +11,4 @@ jobs:
     - name: whoami
       run: whoami
     - name: run apt install
-      run: apt-get install -y libzmq5-dev
+      run: sudo apt-get install -y libzmq5-dev
